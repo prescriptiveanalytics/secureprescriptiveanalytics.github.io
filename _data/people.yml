@@ -1,0 +1,81 @@
+groups:
+  - name: FH OÖ - HEAL
+    address: Softwarepark 11
+    members:
+      - nick: maffenzeller
+        firstname: Michael
+        lastname: Affenzeller
+        prefix: FH-Prof. PD DI Dr.
+        postfix:
+        function:
+          en: Project Lead, Professor
+          de: Projektleitung, Professor
+        phone: +43 5 0804 666
+        mail:  michael.affenzeller@fh-hagenberg.at
+        photo: maffenzeller.jpg
+
+      - nick: swagner
+        firstname: Stefan
+        lastname: Wagner
+        prefix: FH-Prof. DI Dr.
+        postfix:
+        function:
+          en: Work Package Lead, Professor
+          de: Arbeitspaketleitung, Professor
+        phone: +43 5 0804 666
+        mail:  stefan.wagner@fh-hagenberg.at
+        photo: swagner.jpg
+
+      - nick: epitzer
+        firstname: Erik
+        lastname: Pitzer
+        prefix: FH-Prof. DI (FH) Dr.
+        postfix:
+        function:
+          en: Work Package Lead, Professor
+          de: Arbeitspaketleitung, Professor
+        phone: +43 5 0804 666
+        mail:  erik.pitzer@fh-hagenberg.at
+        photo: epitzer.jpg
+
+      - nick: jzenisek
+        firstname: Jan
+        lastname: Zenisek
+        prefix:
+        postfix: MSc
+        function:
+          en: Research Associate
+          de: Wissenschaftlicher Mitarbeiter
+        phone: +43 5 0804 27142
+        mail: jan.zenisek@fh-hagenberg.at
+        photo: jzenisek.jpg
+
+  - name: RISC Software GmbH
+    address: Softwarepark 16
+    members:
+      - nick: mboegl
+        firstname: Michael
+        lastname: Bögl
+        prefix: DI Dr.
+        postfix:
+        function:
+          en: Work Package Lead
+          de: Arbeitspaketleitung
+        phone: +43 5 0804 666
+        mail:  michael.boegl@risc-software.at
+        photo: mboegl.jpg
+
+  - name: SCCH
+    address: Softwarepark 16
+    members:
+      - nick: lfischer
+        firstname: Lukas
+        lastname: Fischer
+        prefix: DI Dr.
+        postfix:
+        function:
+          en: Senior Researcher
+          de: Senior Researcher
+        phone: +43 5 0804 666
+        mail:  lukas.fischer@scch.at
+        photo: lfischer.jpg

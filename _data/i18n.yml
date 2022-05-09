@@ -1,0 +1,105 @@
+languages: 
+  de:
+    id: de
+    name: Deutsch
+    urlbase: de
+  en:
+    id: en
+    name: English
+    urlbase: en
+
+default: de
+
+
+t:
+  nav:
+    info:
+      en: "Info"
+      de: "Info"
+    publications:
+      en: "Publications"
+      de: "Publikationen"
+    blog:
+      en: "Blog"
+      de: "Blog"
+    team:
+      en: "Team"
+      de: "Team"
+    infrastructure:
+      en: "Infrastructure"
+      de: "Infrastruktur"
+    partners:
+      en: "Partners"
+      de: "Partner"
+    contact:
+      en: "Contact"
+      de: "Kontakt"
+
+  pages:
+    imprint:
+      en: "Imprint"
+      de: "Impressum"
+    imprint-link:
+      en: "imprint"
+      de: "impressum"
+    dataprotection:
+      en: "Data Protection"
+      de: "Datenschutz"
+    dataprotection-link:
+      en: "dataprotection"
+      de: "datenschutz"
+    press:
+      en: "Press"
+      de: "Presse"
+    press-link:
+      en: "press"
+      de: "presse"
+    sitemap:
+      en: "Sitemap"
+      de: "Sitemap"
+
+  footer:
+    fhooe:
+      en: "FH Upper Austria"
+      de: "FH Oberösterreich"
+    fhooe-link:
+      en: "https://www.fh-ooe.at/en/"
+      de: "https://www.fh-ooe.at/"
+    risc:
+      en: Risc Software GmbH
+      de: Risc Software GmbH
+    risc-link:
+      en: https://www.risc-software.at/en/
+      de: https://www.risc-software.at/
+    scch:
+      en: SCCH
+      de: SCCH
+    scch-link:
+      en: "https://www.scch.at/"
+      de: "https://www.scch.at/"
+    uv30-link:
+      en: "https://www.uppervision.at/en/"
+      de: "https://www.uppervision.at/"
+    imprint:
+      en: "Imprint"
+      de: "Impressum"
+    dataprotection:
+      en: "Data Protection"
+      de: "Datenschutz"
+    contact:
+      en: "Contact"
+      de: "Kontakt"
+    press:
+      en: "Press"
+      de: "Presse"
+    fhooefull:
+      en: "University of Applied Sciences Upper Austria"
+      de: "Fachhochschule Oberösterreich"
+    fundingtext:
+      en: 'The project Secure Prescriptive Analytics is founded by the country of Upper Austria as part of the program #upperVISION2030. For more information go to'
+      de: 'Das Projekt Secure Prescriptive Analytics wird durch das Land Oberösterreich finanziert als Teil des Programms #upperVISION2030. Nähere Information dazu unter'
+
+
+  months:
+    en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    de: ["Jänner", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember" ]

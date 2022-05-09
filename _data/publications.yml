@@ -1,0 +1,7 @@
+  - id: zenisek2022shapley
+    year: 2022
+    title: Shapley Value based Variable Interaction Networks for Data Stream Analysis
+    authors: J. Zenisek, S. Dorl, D. Falkner, L. Gaisberger, S. Winkler, M. Affenzeller
+    publisher: Lecture Notes in Computer Science 12013, Springer Cham, 2022, pp. xxx-xxx (to be published)
+    abstract: The current development of today’s production industry towards seamless sensor-based monitoring is paving the way for concepts such as Predictive Maintenance. By this means, the condition of plants and products in future production lines will be continuously analyzed with the objective to predict any kind of breakdown and trigger preventing actions proactively. Such ambitious predictions are commonly performed with support of machine learning algorithms. In this work, we utilize these algorithms to model complex systems, such as production plants, by focussing on their variable interactions. The core of this contribution is a sliding window based algorithm, designed to detect changes of the identified interactions, which might indicate beginning malfunctions in the context of a monitored production plant. Besides a detailed description of the algorithm, we present results from experiments with a synthetic dynamical system, simulating stable and drifting system behavior.
+    link: 
