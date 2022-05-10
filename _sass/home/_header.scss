@@ -56,10 +56,8 @@
 }
 
 @media(min-width:768px) {
-    .headerCodeBlock {
-    //    width: 500px;
-       padding-top: 100px;
-	//    margin: auto auto auto auto;
+    .headerCodeBlock {    
+       padding-top: 200px;	
        font-size: 35px;
     }
 
@@ -390,50 +388,44 @@
 
 
 .header-bg svg path, .header-bg svg polygon {
-	opacity: 0.10;
+	opacity: 0.08;
 	z-index: 0;
 
+    animation-duration: 5s;
 	animation-iteration-count: infinite;
 }
 
 
 .header-bg svg #spa-pt2 {
-	animation-name: parts1;
-	animation-duration: 3s; 
+	animation-name: parts1; 
 	animation-delay: 0.0s;
 }
 
 .header-bg svg #spa-pt1 {
-    animation-name: parts1;
-    animation-duration: 3s; 
+    animation-name: parts1;    
 	animation-delay: 0.25s;
 }
 
 
 .header-bg svg #spa-pt5 {	
-    animation-name: parts1;
-    animation-duration: 3s; 
+    animation-name: parts1;    
 	animation-delay: 0.5s;
 }
 
 .header-bg svg #spa-pt3 {
-    animation-name: parts1;
-    animation-duration: 3s; 
+    animation-name: parts1;     
 	animation-delay: 0.75s;
 }
 
 .header-bg svg #spa-pt4 {
-    animation-name: parts1;
-    animation-duration: 3s;
+    animation-name: parts1;    
 	animation-delay: 1s; 
 }
 
-
-
 @keyframes parts1 {
-    0%   { opacity: 0.10; }
-    50%   { opacity: 0.30; }
-    100%   { opacity: 0.10; }
+    0%   { opacity: 0.08; }
+    50%   { opacity: 0.20; }
+    100%   { opacity: 0.08; }
   }
 
   @keyframes parts2 {
