@@ -62,30 +62,18 @@
     fill: $brand-primary;
 }
 
-
-
-// #sfl-logo-bulpflash,
-// #sfl-logo-bulp {
-//     fill: $brand-primary;
-// }
-
-// #sfl-logo-building,
-// #sfl-logo-chimney1,
-// #sfl-logo-chimney2 {
-//     fill: $brand-grey;
-// }
-
 .spa-logo:hover {   
     fill: $brand-primary;
 }
 
 .navbar-default .nav > li>a,
-.navbar-default .nav>li>a:focus {
-    // text-transform: lowercase;
+.navbar-default .nav>li>a:focus {    
     font-size: 15px;
     font-weight: 700;
     color: #222;
 }
+
+
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
@@ -110,6 +98,22 @@
 
 .navbar-default:after {
     content:"";
+}
+
+.navbar-brand {
+    font-size: 11px;
+}
+
+@media(min-width:350px) {
+    .navbar-brand {
+        font-size: 14px;
+    }
+}
+
+@media(min-width:400px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
 }
 
 @media(min-width:768px) {
@@ -214,3 +218,10 @@
     }
 }
 
+@media(min-width:768px) {
+    @media(max-width:1000px) {
+        .navbar-right>li>a {            
+            padding: 25px 10px 25px 10px;
+        }
+    }
+}

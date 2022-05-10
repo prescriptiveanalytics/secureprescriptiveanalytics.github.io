@@ -3,7 +3,7 @@ layout: home
 lang: de
 ---
 
-<section class="bg-primary" id="info">
+<section class="bg-primary-light" id="info">
     <div class="container">
         <h2 class="section-heading">Projektinformation</h2>
         <div class="row">
@@ -32,7 +32,7 @@ lang: de
             <div class="col-lg-12 col-md-12">
                 <br/>
                 <p class="text-justify">Ein Hauptziel des Projekts besteht in der Dissemination der gewonnenen Erkenntnisse in Form öffentlicher Vorträge, Workshops mit Industriebetrieben und Publikationen in wissenschaftlichen Journalen und Magazinen.</p>
-                <a href="/publications" class="btn btn-xl btn-slim-primary">Publikationen</a>
+                <a href="/publications" id="btn-publications" class="btn btn-xl btn-slim-primary">Publikationen</a>
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@ lang: de
         </div>
         <div class="row">
             <div class="col-lg-12 text-right">
-                <a href="/blog" class="btn btn-xl btn-slim-primary blog-button">Mehr von unserem Blog</a>
+                <a href="/blog" id="btn-blog" class="btn btn-xl btn-slim-primary blog-button">Mehr von unserem Blog</a>
             </div>
         </div>
         {% else %}
@@ -97,7 +97,7 @@ lang: de
     </div>
 </section> -->
 
-<section class="bg-primary" id="contact">
+<section class="bg-secondary" id="contact">
     <div class="container text-justify">
         <h2 class="section-heading">Kontakt</h2>
         <div class="row contact-info">
