@@ -33,7 +33,7 @@ keywords: modeling and simulation, optimization, interpretable machine learning,
 # github_username:  spa
 
 # SEO
-google_analytics: false
+google_analytics: true
 
 # Build settings
 # markdown: kramdown
