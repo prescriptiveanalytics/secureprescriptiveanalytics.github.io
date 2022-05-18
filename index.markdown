@@ -12,7 +12,7 @@ lang: de
                  Vorhersagen prägen unser aller Leben – im Privaten wie auch im Beruflichen. Dabei reicht das Spektrum von der alltäglichen Wettervorhersage, über die Prognose von Krankheitsverläufen, bis hin zur Vorhersage optimaler Wartungszeitpunkte für komplexe industrielle Anlagen. Die Grundlage für Vorhersagen bilden Daten und deren korrekte Auswertung: Mit der zunehmenden Digitalisierung aller Lebensbereiche und die damit einhergehende, stetig wachsende Menge verfügbarer Daten, konnten in den vergangenen Jahren einerseits die Vorhersagegenauigkeit enorm gesteigert werden und andererseits neue Anwendungsfelder erschlossen werden. Einen wesentlichen Anteil am Erfolg von Vorhersagen ist der Anwendung und kontinuierlichen Weiterentwicklung computergestützter Technologien, wie Data Mining, Simulation oder Machine Learning, zuzuschreiben. Diese ermöglichen es, große Datenmengen in adäquater Zeit auszuwerten und dennoch eine möglichst exakte Aussage zu treffen. Die Information einer Vorhersage – ein mit gewisser Wahrscheinlichkeit eintretender Zustand oder Ereignis – wirft jedoch zwangsläufig die Frage nach einer akkuraten Reaktion, also Weiterverarbeitung der Information, auf. Mit dieser Frage beschäftigt sich das derzeit noch im Aufbau befindliche Forschungsfeld der Prescriptive Analytics: Die datenbasierte Ableitung von Handlungsempfehlungen. Die Sicherheit und Vertrauenswürdigkeit der Daten sowie deren Auswertung repräsentieren aufgrund der allgegenwärtigen Aufzeichnung zwei immer stärker in den Vordergrund rückende Aspekte von der Datenakquise bis zur Vorhersage. Im Fall von Prescriptive Analytics werden diese Aspekte sogar noch wichtiger, da es von der automatisierten Erzeugung von Handlungsempfehlungen bis zu deren Umsetzung in der Realität, keinen weiteren Kontrollmechanismus mehr gibt. 
                 </p>
                 <p class="text-justify">
-                    Das Projekt Secure Prescriptive Analytics wird durch das Land Oberösterreich finanziert als Teil des Programms des Landes Oö. zur Stimulierung der Erschließung / Erweiterung von zukunftsweisenden Forschungsfeldern bei den Oö. außeruniversitären Forschungseinrichtungen im Zeitraum 01.01.2022 – 31.12.2029. Nähere Informationen zur Wirtschafts- und Forschungsstrategie #upperVISION2030 (Handlungsfeld "Digitale Transformation") unter <a href="{{ site.data.i18n.t.footer.uv30-link[_lang] }}">www.uppervision.at</a>.
+                    Das Projekt Secure Prescriptive Analytics wird durch das Land Oberösterreich finanziert als Teil des Programms des Landes Oö. zur Stimulierung der Erschließung / Erweiterung von zukunftsweisenden Forschungsfeldern bei den Oö. außeruniversitären Forschungseinrichtungen im Zeitraum 01.01.2022 – 31.12.2029. Nähere Informationen zur Wirtschafts- und Forschungsstrategie #upperVISION2030 (Handlungsfeld "Digitale Transformation") unter <a href="{{ site.data.i18n.t.footer.uv30-link[page.lang] }}">www.uppervision.at</a>.
                 </p>
             </div>
             <div class="col-lg-12 col-md-12 facts">
@@ -23,7 +23,7 @@ lang: de
                     <tr><td>Laufzeit:</td><td>01/2022 - 12/2025</td></tr>
                     <tr><td>Team:</td><td>FH Oberösterreich Campus Hagenberg, RISC Software GmbH, SCCH Software Competence Center GmbH</td></tr>
                     <tr><td>Themen:</td><td>Dynamic Optimization, Modeling and Simulation, Interpretable & Privacy-Preserving Machine Learning</td></tr>
-                    <tr><td>Fördergeber:</td><td>Land Oberösterreich, nähere Informationen unter <a href="{{ site.data.i18n.t.footer.uv30-link[_lang] }}">www.uppervision.at</a></td></tr>
+                    <tr><td>Fördergeber:</td><td>Land Oberösterreich, nähere Informationen unter <a href="{{ site.data.i18n.t.footer.uv30-link[page.lang] }}">www.uppervision.at</a></td></tr>
                 </table>
                 </div>
             </div>
@@ -105,8 +105,7 @@ lang: de
                 <h4>FH-Prof. PD DI Dr. Michael Affenzeller</h4>
                 <table class="info-table">
                     <tr><td>Funktion:</td><td>Projektleitung</td></tr>
-                    <tr><td>Tel.:</td><td>+43 5 0804 33152</td></tr>
-                    <tr><td>Fax:</td><td>+43 5 0804 933199</td></tr>
+                    <tr><td>Tel.:</td><td>+43 50804 22031</td></tr>                  
                     <tr><td>Mail:</td><td><a href="mailto:michael.affenzeller@fh-hagenberg.at">michael.affenzeller@fh-hagenberg.at</a></td></tr>
                 </table>
             </div>
@@ -114,8 +113,7 @@ lang: de
                 <h4>Mag. Michaela Beneder</h4>
                 <table class="info-table">
                     <tr><td>Funktion:</td><td>Koordination</td></tr>
-                    <tr><td>Tel.:</td><td>+43 5 0804 33810</td></tr>
-                    <tr><td>Fax:</td><td>+43 5 0804 933199</td></tr>
+                    <tr><td>Tel.:</td><td>+43 664 80484 27160</td></tr>                    
                     <tr><td>Mail:</td><td><a href="mailto:michaela.beneder@fh-hagenberg.at">michaele.beneder@fh-hagenberg.at</a></td></tr>
                 </table>
             </div>
