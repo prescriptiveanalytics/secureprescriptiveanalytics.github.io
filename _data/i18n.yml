@@ -22,12 +22,12 @@ t:
     blog:
       en: "Blog"
       de: "Blog"
+    blog-preview:
+      en: "Blog Preview"
+      de: "Blog Vorschau"
     team:
       en: "Team"
       de: "Team"
-    infrastructure:
-      en: "Infrastructure"
-      de: "Infrastruktur"
     partners:
       en: "Partners"
       de: "Partner"
@@ -49,11 +49,11 @@ t:
       en: "dataprotection"
       de: "datenschutz"
     press:
-      en: "Press"
-      de: "Presse"
+      en: "Press Material"
+      de: "Pressematerial"
     press-link:
-      en: "press"
-      de: "presse"
+      en: "pressmaterial"
+      de: "pressematerial"
     sitemap:
       en: "Sitemap"
       de: "Sitemap"
@@ -90,14 +90,14 @@ t:
       en: "Contact"
       de: "Kontakt"
     press:
-      en: "Press"
-      de: "Presse"
+      en: "Press Material"
+      de: "Pressematerial"
     fhooefull:
       en: "University of Applied Sciences Upper Austria"
       de: "Fachhochschule Oberösterreich"
     fundingtext:
       en: 'The project Secure Prescriptive Analytics is founded by the country of Upper Austria as part of the program #upperVISION2030. For more information go to'
-      de: 'Das Projekt Secure Prescriptive Analytics wird durch das Land Oberösterreich finanziert als Teil des Programms #upperVISION2030. Nähere Information dazu unter'
+      de: 'Das Projekt Secure Prescriptive Analytics wird durch das Land Oberösterreich finanziert als Teil des Programms #upperVISION2030. Nähere Informationen dazu unter'
 
 
   months:
