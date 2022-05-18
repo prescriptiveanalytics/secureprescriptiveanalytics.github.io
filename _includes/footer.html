@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-lg-1 col-md-6 col-sm-12">
                     <ul class="iconlist">
-                        <li><a class="icon-link" href="{{ site.data.links.sfl_github }}" target="_blank"><span class="icon icon-github">{% include svg/icon-github.svg %}</span></a></li>
+                        <li><a class="icon-link" href="{{ site.data.links.spa_github }}" target="_blank"><span class="icon icon-github">{% include svg/icon-github.svg %}</span></a></li>
                         <li><a class="icon-link" href="{{ "/feed.xml" | relative_url }}" target="_blank"><span class="icon icon-rss">{% include svg/icon-rss.svg %}</span></a></li>
                         <li class="lang-selector">
                             {% if _lang == "de" %}
@@ -63,10 +63,10 @@
             </div>
             <div class="row special-info">
                 <div class="col-lg-5 col-md-12 col-sm-12">
-                    <div>&copy 2022 | Secure Prescriptive Analytics</div>
+                    <div>&copy {{ 'now' | date: "%Y" }} | Secure Prescriptive Analytics</div>
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12">
-                    <p>{{ site.data.i18n.t.footer.fundingtext[_lang] }} <a href="{{ site.data.i18n.t.footer.uv30-link[_lang] }}">www.uppervision.at</a>.</p>
+                    <p>{{ site.data.i18n.t.footer.fundingtext[_lang] }} <a target="_blank" href="{{ site.data.i18n.t.footer.uv30-link[_lang] }}">www.uppervision.at</a>.</p>
                 </div>
             </div>
             <!--
