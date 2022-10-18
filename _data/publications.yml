@@ -4,4 +4,12 @@
     authors: J. Zenisek, S. Dorl, D. Falkner, L. Gaisberger, S. Winkler, M. Affenzeller
     publisher: Lecture Notes in Computer Science 12013, Springer Cham, 2022, pp. xxx-xxx (to be published)
     abstract: The current development of today’s production industry towards seamless sensor-based monitoring is paving the way for concepts such as Predictive Maintenance. By this means, the condition of plants and products in future production lines will be continuously analyzed with the objective to predict any kind of breakdown and trigger preventing actions proactively. Such ambitious predictions are commonly performed with support of machine learning algorithms. In this work, we utilize these algorithms to model complex systems, such as production plants, by focussing on their variable interactions. The core of this contribution is a sliding window based algorithm, designed to detect changes of the identified interactions, which might indicate beginning malfunctions in the context of a monitored production plant. Besides a detailed description of the algorithm, we present results from experiments with a synthetic dynamical system, simulating stable and drifting system behavior.
-    link: 
+    link: /
+
+  - id: zenisek2022utilizing
+    year: 2022
+    title: Utilizing Interpretable Machine Learning to detect Dynamics in Energy Communities
+    authors: J. Zenisek, F. Bachinger, E. Pitzer, S. Wagner, M. Affenzeller
+    publisher: Proceedings of the 34th European Modeling and Simulation Symposium, 2022, Italy, Rome (to be published)
+    abstract: With the growing use of machine learning models in many critical domains, research regarding making these models, as well as their predictions, more explainable has intensified in the last few years. In this paper, we present extensions to the machine learning based data mining technique Variable Interaction Networks (VIN), to integrate existing domain knowledge and thus, enable more meaningful analysis. Several tests on data from a case study concerned with long-term monitored photovoltaic systems, verify the feasibility of our approach to provide valuable, human-interpretable insights. In particular, we show the successful application of root-cause detection in scenarios with changing system conditions.
+    link: /
