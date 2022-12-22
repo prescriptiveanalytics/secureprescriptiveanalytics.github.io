@@ -38,6 +38,30 @@ groups:
         mail:  erik.pitzer@fh-hagenberg.at
         photo: epitzer.jpg
 
+      - nick: fbachinger
+        firstname: Florian
+        lastname: Bachinger
+        prefix:
+        postfix: MSc
+        function:
+          en: Research Associate
+          de: Wissenschaftlicher Mitarbeiter
+        phone: +43 5 0804 27142
+        mail: florian.bachingerfh-hagenberg.at
+        photo: fbachinger.jpg
+
+      - nick: mbeneder
+        firstname: Michaela
+        lastname: Beneder
+        prefix: Mag.
+        postfix:
+        function:
+          en: Project Coordination
+          de: Projektkoordination
+        phone: +43 664 80484 27160
+        mail: michaela.beneder@fh-hagenberg.at
+        photo: mbeneder.jpg
+
       - nick: jzenisek
         firstname: Jan
         lastname: Zenisek
@@ -51,7 +75,7 @@ groups:
         photo: jzenisek.jpg
 
   - name: RISC Software GmbH
-    address: Softwarepark 16
+    address: Softwarepark 32a
     members:
       - nick: mboegl
         firstname: Michael
@@ -65,17 +89,41 @@ groups:
         mail:  michael.boegl@risc-software.at
         photo: mboegl.jpg
 
-  - name: SCCH
-    address: Softwarepark 16
+      - nick: dfalkner
+        firstname: Dominik
+        lastname: Falkner
+        prefix:
+        postfix: MSc
+        function:
+          en: Research Associate
+          de: Wissenschaftlicher Mitarbeiter
+        phone: 
+        mail:  dominik.falkner@risc-software.at
+        photo: dfalkner.jpg
+
+  - name: Software Competence Center Hagenberg GmbH
+    address: Softwarepark 32a
     members:
-      - nick: lfischer
-        firstname: Lukas
-        lastname: Fischer
-        prefix: DI Dr.
+      - nick: amontuoro
+        firstname: Alessio
+        lastname: Montuoro
+        prefix: DI
         postfix:
         function:
-          en: Senior Researcher
-          de: Senior Researcher
-        phone: +43 5 0804 666
-        mail:  lukas.fischer@scch.at
-        photo: lfischer.jpg
+          en: Research Project Manager
+          de: Research Project Manager
+        phone: +43 50 343 912
+        mail:  alessio.montuoro@scch.at
+        photo: amontuoro.jpg          
+
+      - nick: mrossbory
+        firstname: Michael
+        lastname: Roßbory
+        prefix: DI
+        postfix:
+        function:
+          en: Senior Research Project Manager
+          de: Senior Research Project Manager
+        phone: +43 50 343 860
+        mail:  michael.rossbory@scch.at
+        photo: mrossbory.jpg
