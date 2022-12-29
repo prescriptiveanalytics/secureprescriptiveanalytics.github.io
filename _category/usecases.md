@@ -1,5 +1,5 @@
 ---
-rank: 4
+rank: 5
 tag: UseCases
 lang: de
 description: Nagelproben, Prüfsteine, Lackmustests und Gradmesser

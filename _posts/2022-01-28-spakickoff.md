@@ -6,7 +6,7 @@ description: Kick Off Meeting des Projektkonsortiums.
 keywords: Meeting
 date: 2022-01-28 17:31:00 +0200
 categories:
-  - "SecurePrescriptiveAnalytics"
+  - "News"
 author: jzenisek
 image: /blog/resources/2022-01-28-spakickoff/spakickoff-01.png
 ---
