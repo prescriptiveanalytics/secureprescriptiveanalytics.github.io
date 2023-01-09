@@ -1,7 +1,7 @@
 ---
 ---
 
-(function($) {
+(function(L) {
 
 
     var map = L.map('map').setView([48.36936535443323, 14.513704089483294], 15);
@@ -41,4 +41,4 @@
         + '<br/><br/><a target="_blank" href="https://www.openstreetmap.org/directions?from=&to=48.37046%2C14.51391">Route hierhin</a>');
         
 
-})(jQuery);
+})(L);

@@ -69,8 +69,9 @@
 
 .header-bg {
     position: absolute;
-    bottom: 0;
+    top: 0;
     width: 100%;
+    height: 100%;
 
     background-position: center;
     -webkit-background-size: cover;
@@ -82,9 +83,11 @@
     z-index: 0;
 
     svg {
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
     }
+
+    
 }
 
 .slot {
@@ -432,5 +435,58 @@
   @keyframes parts2 {
     0%   { opacity: 0.15; }
     50%   { opacity: 0.20; }
-    100%   { opacity: 0.15; }
+    100%   { opacity: 0.15; }    
   }
+
+
+  // new
+
+.header-bg svg rect {
+    // opacity: 0.0;
+    z-index: 0;
+
+    // animation-duration: 6s;
+    animation-iteration-count: infinite;        
+}
+
+
+// l1
+.header-bg svg .box1 {
+    animation-name: box1;
+    animation-delay: 0.0s;
+    animation-duration: 6s;
+}
+
+.header-bg svg .box2 {
+    animation-name: box2;
+    animation-delay: 1s;
+    animation-duration: 6s;
+}
+
+.header-bg svg rect {
+    animation-name: box3;
+    animation-delay: 2s;
+    animation-duration: 6s;    
+}
+
+
+@keyframes box1 {
+    0% { fill: #fff; }    
+    50% { fill: #56c69f;  }  
+    100% { fill: #fff;  }      
+}
+
+@keyframes box2 {
+    0% { fill: #fff; }    
+    50% { fill: #56c69f;  }  
+    100% { fill: #fff;  }      
+}
+
+@keyframes box3 {
+    0% { fill: #fff; }    
+    50% { fill: #56c69f;  }  
+    100% { fill: #fff;  }      
+}
+
+
+
