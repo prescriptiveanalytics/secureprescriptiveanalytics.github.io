@@ -442,33 +442,9 @@
   // new
 
 .header-bg svg rect {
-    // opacity: 0.0;
-    z-index: 0;
-
-    // animation-duration: 6s;
-    animation-iteration-count: infinite;        
+    z-index: 0;    
+    animation-iteration-count: 1;
 }
-
-
-// l1
-.header-bg svg .box1 {
-    animation-name: box1;
-    animation-delay: 0.0s;
-    animation-duration: 6s;
-}
-
-.header-bg svg .box2 {
-    animation-name: box2;
-    animation-delay: 1s;
-    animation-duration: 6s;
-}
-
-.header-bg svg rect {
-    animation-name: box3;
-    animation-delay: 2s;
-    animation-duration: 6s;    
-}
-
 
 @keyframes box1 {
     0% { fill: #fff; }    
@@ -483,10 +459,20 @@
 }
 
 @keyframes box3 {
-    0% { fill: #fff; }    
-    50% { fill: #56c69f;  }  
-    100% { fill: #fff;  }      
+    0% { fill: #fff; }   
+    5% { fill: #fff; }   
+    15% { fill: #56c69f; } 
+    25% { fill: #fff; }  
+    100% { fill: #fff; }      
 }
 
+@keyframes box4 {
+    0% { fill: #fff; }   
+    5% { fill: #fff; }   
+    15% { fill: #56c69f; } 
+    50% { fill: #56c69f; }    
+    75% { fill: #fff; }
+    100% { fill: #fff; }      
+}
 
 

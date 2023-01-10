@@ -8,7 +8,8 @@ const svgns = "http://www.w3.org/2000/svg";
 const svg = document.querySelector(".header-bg svg");
 
 
-let opacities = [ 0.0, 0.05, 0.1, 0.15 ];
+// let opacities = [ 0.0, 0.05, 0.1, 0.15 ];
+let opacities = [ 0.10, 0.125, 0.15, 0.175 ];
 // let opacities = [ 0.0, 0.025, 0.05, 0.075 ];
 // let opacities = [ 0.025, 0.05, 0.075, 0.1, 0.125, 0.15, 0.175, 0.20, 0.225, 0.25 ];
 
@@ -26,10 +27,64 @@ for(let i = 0; i < 10; i++) {
         svg.appendChild(newRect);                
     }   
 }
-getGridMapping();
+// createGridAnimation_InsideOut();
+createGridAnimation();
+setInterval(createGridAnimation, 9000);
 
-function getGridMapping() {
+function createGridAnimation() {
+    for(let i = 0; i < 10; i++) {
+        for(let j = 0; j < 10; j++) {
+            let rect = document.getElementById("x" + i + "y" + j);                        
+            rect.setAttribute("class", "");
+            rect.setAttribute("style", "animation:none;");
+        }
+    }
+    setTimeout(() => {
+        for(let y = 0; y < 10; y++) {
+            for(let x = 0; x < 10; x++) {
+                let rect = document.getElementById("x" + x + "y" + y);                        
+                rect.setAttribute("style", `animation: box3 10s linear ${y*100}ms;`);
+            }
+        }
+    
+        setFigure();
+        console.log("reconfigured animation");
+    }, 250);
+}
 
+function setFigure() {
+    let l1X = getRndInteger(1, 4);
+    let l1Size = getRndInteger(6,10-l1X);
+
+    let layer = 8 - getRndInteger(0,4);
+    for(let i = l1X; i < (l1X+l1Size); i++) {
+        let rect = document.getElementById(`x${i}y${layer}`);
+        rect.setAttribute("style", `animation: box4 10s linear ${layer*100}ms;`);
+    }
+
+    layer--;
+    let left = getRndInteger(1,3);
+    let right = getRndInteger(1,3);
+    let l2X = l1X + left;
+    let l2Size = l1Size-left-right;
+    for(let i = l2X; i < (l2X+l2Size); i++) {
+        let rect = document.getElementById(`x${i}y${layer}`);
+        rect.setAttribute("style", `animation: box4 10s linear ${layer*100}ms;`);
+    }
+
+    layer--;
+    left = getRndInteger(1,3);
+    right = getRndInteger(1,3);
+    let l3X = l2X + left;
+    let l3Size = l2Size-left-right;
+    l3Size = l3Size <= 0 ? 1 : l3Size;
+    for(let i = l3X; i < (l3X+l3Size); i++) {
+        let rect = document.getElementById(`x${i}y${layer}`);
+        rect.setAttribute("style", `animation: box4 10s linear ${layer*100}ms;`);
+    }
+}
+
+function createGridAnimation_InsideOut() {
 
     for(let i = 0; i < 10; i++) {
         for(let j = 0; j < 10; j++) {
@@ -37,7 +92,6 @@ function getGridMapping() {
             rect.setAttribute("class", "");
         }
     }
-
 
     let luX, luY, ruX, ruY, rdX, rdY, ldX, ldY;
     luX = getRndInteger(3, 6);
@@ -47,8 +101,7 @@ function getGridMapping() {
     rdX = ruX;
     rdY = ruY + 2;
     ldX = luX;
-    ldY = rdY;
-    
+    ldY = rdY;    
 
     for(let i = luX; i < ruX; i++) {
         for(let j = luY; j < ldY; j++) {
@@ -64,29 +117,7 @@ function getGridMapping() {
                 rect.setAttribute("class", "box2");
             }            
         }
-    }
-
-
-    // let level = 1;
-    // let box = 1;
-    // for(let i = 0; i < 3; i++) {  
-    //     box = 1;
-    //     for(let j = 0; j < 3; j++) {
-    //         let rect = document.getElementById("x" + i + "y" + j);                        
-    //         rect.setAttribute("class", "l" + level + "b" + box);
-    //     }   
-    //     box = 2;
-    //     for(let j = 3; j < 6; j++) {
-    //         let rect = document.getElementById("x" + i + "y" + j);                        
-    //         rect.setAttribute("class", "l" + level + "b" + box);
-    //     }   
-    //     box = 2;
-    //     for(let j = 6; j < 10; j++) {
-    //         let rect = document.getElementById("x" + i + "y" + j);                        
-    //         rect.setAttribute("class", "l" + level + "b" + box);
-    //     }   
-    // }
-    
+    }    
 }
 
 function getRndInteger(min, max) {
