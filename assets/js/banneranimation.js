@@ -8,9 +8,10 @@ const svgns = "http://www.w3.org/2000/svg";
 const svg = document.querySelector(".header-bg svg");
 
 
-// let opacities = [ 0.0, 0.05, 0.1, 0.15 ];
-let opacities = [ 0.10, 0.125, 0.15, 0.175 ];
-// let opacities = [ 0.0, 0.025, 0.05, 0.075 ];
+
+// let opacities = [ 0.10, 0.125, 0.15, 0.175 ];
+// let opacities = [ 0.15, 0.175, 0.20, 0.225, 0.25 ];
+let opacities = [ 0.15, 0.1675, 0.175, 0.1875, 0.20, 0.2175, 0.225, 0.2375, 0.25 ];
 // let opacities = [ 0.025, 0.05, 0.075, 0.1, 0.125, 0.15, 0.175, 0.20, 0.225, 0.25 ];
 
 for(let i = 0; i < 10; i++) {
@@ -21,7 +22,7 @@ for(let i = 0; i < 10; i++) {
         newRect.setAttribute("width", "10%");
         newRect.setAttribute("height", "10%");
         newRect.setAttribute("fill", "#ffffff");
-        newRect.setAttribute("opacity", "" + opacities[getRndInteger(0, 4)]);
+        newRect.setAttribute("opacity", "" + opacities[getRndInteger(0, opacities.length)]);
         
         newRect.setAttribute("id", "x" + i + "y" + j);        
         svg.appendChild(newRect);                
