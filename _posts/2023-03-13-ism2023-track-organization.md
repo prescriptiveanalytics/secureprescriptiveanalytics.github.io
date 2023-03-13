@@ -31,4 +31,5 @@ The increasing application of machine learning (ML) models in modern industrial 
 <br/>
 
 ![ISM2023](/blog/resources/2023-03-13-ism2023-track-organization/ism2023-flyer.jpg)
+
 [ism]: https://www.msc-les.org/ism2023/
