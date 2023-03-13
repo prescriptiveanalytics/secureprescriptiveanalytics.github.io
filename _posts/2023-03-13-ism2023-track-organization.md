@@ -8,7 +8,7 @@ date: 2023-03-13 17:00 +0200
 categories:
   - "Dissemination"
 author: fbachinger
-image: /blog/resources/2023-03-13-ism2023-track-organization/ism2023_track.jpg
+image: /blog/resources/2023-03-13-ism2023-track-organization/ism2023-flyer.jpg
 ---
 
 The Secure Prescriptive Analytics team is proud to announce our new ISM 2023 track titled "Software Design Aspects for Industrial Machine Learning".
@@ -31,3 +31,4 @@ The increasing application of machine learning (ML) models in modern industrial 
 <br/>
 
 ![ISM2023](/blog/resources/2023-03-13-ism2023-track-organization/ism2023-flyer.jpg)
+[ism]: https://www.msc-les.org/ism2023/
