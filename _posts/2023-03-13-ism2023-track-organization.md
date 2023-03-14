@@ -1,8 +1,8 @@
 ---
 layout: post
-lang: en
-title: "A new track for ISM 2023"
-description: Secure Prescriptive Analytics participates with a new track at ISM 2023.
+lang: de
+title: "SPA mit neuem Track bei ISM 2023"
+description: Secure Prescriptive Analytics nimmt mit neuem Track an der ISM 2023 teil.
 keywords: ISM 2023, Track, Submission
 date: 2023-03-13 17:00 +0200
 categories:
@@ -11,7 +11,8 @@ author: fbachinger
 image: /blog/resources/2023-03-13-ism2023-track-organization/ism2023-flyer.jpg
 ---
 
-The Secure Prescriptive Analytics team is proud to announce our new ISM 2023 track titled "Software Design Aspects for Industrial Machine Learning".
+Das SPA Team organisiert den neuen Track "Software Design Aspects for Industrial Machine Learning" auf der ISM 2023.
+Wir freuen uns auf SPA relevante Beiträge von anderen ForscherInnen und die gemeinsame Diskussion Vorort. 
 
 <!--more-->
 With the introduction of a new track to [ISM][ism]{:target="_blank"} 2023, we hope to further increase the community's activities in SPA-related research areas. Our new track provides a platform for active participation through paper submissions and likely insightful discussions at the conference. We welcome your contributions to our track:
