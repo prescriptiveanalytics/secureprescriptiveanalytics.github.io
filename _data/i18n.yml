@@ -10,6 +10,10 @@ languages:
 
 default: de
 
+logo:
+  upperaustria:
+    en: "assets/img/logos/logo_upperaustria_en.png"
+    de: "assets/img/logos/logo_upperaustria_de.png"
 
 t:
   nav:

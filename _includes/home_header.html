@@ -1,3 +1,9 @@
+{% if page.lang == site.lang or page.lang == [] %}
+    {% assign _lang = site.lang %}
+{% else %}
+    {% assign _lang = page.lang %}    
+{% endif %}
+
 <header class="home-header">
 
     <div class="headerCodeBlock">
@@ -12,6 +18,13 @@
     <div class="header-bg">
         <svg xmlns="http://www.w3.org/2000/svg">            
         </svg>
+    </div>
+
+    <div class="funding-banner">
+        <div class="funding-banner-inner">
+            <figure class="image-box"><img id="image-ualogo" src="/{{ site.data.i18n.logo.upperaustria[_lang] }}" /></figure>        
+            <p>{{ site.data.i18n.t.footer.fundingtext[_lang] }} <a target="_blank" href="{{ site.data.i18n.t.footer.uv30-link[_lang] }}">www.uppervision.at</a>.</p>
+        </div>
     </div>
 
     <!-- {% for slot in site.data.carousel.slots %}
