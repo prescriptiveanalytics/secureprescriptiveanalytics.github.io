@@ -33,11 +33,11 @@
         // .openPopup();
     
     L.marker([48.37001422662508, 14.513873568938944]).addTo(map)
-        .bindPopup('RISC Software GmbH<br/>Softwarepark 32a<br/>4232 Hagenberg im Mühlkreis'
+        .bindPopup('SCCH Software Competence Center Hagenberg<br/>Softwarepark 32a<br/>4232 Hagenberg im Mühlkreis'
         + '<br/><br/><a target="_blank" href="https://www.openstreetmap.org/directions?from=&to=48.37046%2C14.51391">Route hierhin</a>');
         
     L.marker([48.37042, 14.51391]).addTo(map)
-        .bindPopup('SCCH Software Competence Center Hagenberg<br/>Softwarepark 32a<br/>4232 Hagenberg im Mühlkreis'
+        .bindPopup('RISC Software GmbH<br/>Softwarepark 32a<br/>4232 Hagenberg im Mühlkreis'
         + '<br/><br/><a target="_blank" href="https://www.openstreetmap.org/directions?from=&to=48.37046%2C14.51391">Route hierhin</a>');
         
 
