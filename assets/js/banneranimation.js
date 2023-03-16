@@ -54,34 +54,44 @@ function createGridAnimation() {
 }
 
 function setFigure() {
-    let l1X = getRndInteger(1, 4);
-    let l1Size = getRndInteger(6,10-l1X);
+    let l1X = getRndInteger(1, 3);
+    let l1Size = getRndInteger(7,10-l1X);
 
     let layer = 8 - getRndInteger(0,4);
     for(let i = l1X; i < (l1X+l1Size); i++) {
-        let rect = document.getElementById(`x${i}y${layer}`);
-        rect.setAttribute("style", `animation: box4 10s linear ${layer*100}ms;`);
+        if(i % 2 == 0) {
+            let rect = document.getElementById(`x${i}y${layer}`);
+            rect.setAttribute("style", `animation: box4 10s linear ${layer*100}ms;`);
+        }
     }
 
-    layer--;
-    let left = getRndInteger(1,3);
-    let right = getRndInteger(1,3);
+    layer--; layer--;
+    //et left = getRndInteger(1,3);
+    //let right = getRndInteger(1,3);
+    let left = 1;
+    let right = 1;
     let l2X = l1X + left;
     let l2Size = l1Size-left-right;
     for(let i = l2X; i < (l2X+l2Size); i++) {
-        let rect = document.getElementById(`x${i}y${layer}`);
-        rect.setAttribute("style", `animation: box4 10s linear ${layer*100}ms;`);
+        if((i+1) % 2 == 0) {
+            let rect = document.getElementById(`x${i}y${layer}`);
+            rect.setAttribute("style", `animation: box4 10s linear ${layer*100}ms;`);
+        }
     }
 
-    layer--;
-    left = getRndInteger(1,3);
-    right = getRndInteger(1,3);
+    layer--; layer--;
+    //left = getRndInteger(1,3);
+    //right = getRndInteger(1,3);
+    left = 1;
+    right = 1;
     let l3X = l2X + left;
     let l3Size = l2Size-left-right;
     l3Size = l3Size <= 0 ? 1 : l3Size;
     for(let i = l3X; i < (l3X+l3Size); i++) {
-        let rect = document.getElementById(`x${i}y${layer}`);
-        rect.setAttribute("style", `animation: box4 10s linear ${layer*100}ms;`);
+        if(i % 2 == 0) {
+            let rect = document.getElementById(`x${i}y${layer}`);
+            rect.setAttribute("style", `animation: box4 10s linear ${layer*100}ms;`);
+        }
     }
 }
 
