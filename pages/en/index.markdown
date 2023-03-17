@@ -86,25 +86,30 @@ permalink: en/
         <h2 class="section-heading">Team</h2>
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <p>The development of innovative methods and concepts in the new research field of Secure Prescriptive Analytics requires the synthesis of a variety of research disciplines and technologies. A key to the success of this research project therefore lies in the collaboration of an interdisciplinary team that brings in and combines different competencies.</p>
+                <p>The development of innovative methods and concepts in the new research field of Secure Prescriptive Analytics requires the synthesis of a variety of research disciplines and technologies. A key to the success of this research project therefore lies in the collaboration of an interdisciplinary team that brings in and combines different competencies. The project Secure Prescriptive Analytics involves researchers of the <i>Softwarepark Hagenberg</i>-Organizations <i>FH OÖ F&E GmbH research group HEAL, RISC Software GmbH</i> and <i>Software Competence Center Hagenberg GmbH</i>.</p>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row image-row">
-            <div class="col-lg-4 col-md-12 text-center topic-box">
-                <a target="_blank" href="{{ site.data.links.fhooe }}"><br/>
+            <div class="col-lg-3 col-md-12 text-center topic-box">
+                <a target="_blank" href="{{ site.data.i18n.t.links.fhooe[page.lang] }}"><br/>
                 <figure class="image-box"><img id="image-fhlogo" src="/{{ site.data.assets.image-fhlogo }}" /></figure>
                 <br/><br/><br/></a>
             </div>
-            <div class="col-lg-4 col-md-12 text-center topic-box">            
-                <a target="_blank" href="{{ site.data.links.risc }}"><br/>
+            <div class="col-lg-3 col-md-12 text-center topic-box">            
+                <a target="_blank" href="{{ site.data.i18n.t.links.risc[page.lang] }}"><br/>
                 <figure class="image-box"><img id="image-risclogo" src="/{{ site.data.assets.image-risclogo }}" /></figure>
                 <br/><br/><br/></a>
             </div>
-            <div class="col-lg-4 col-md-12 text-center topic-box">
-                <a target="_blank" href="{{ site.data.links.scch }}"><br/>
+            <div class="col-lg-3 col-md-12 text-center topic-box">
+                <a target="_blank" href="{{ site.data.i18n.t.links.scch[page.lang] }}"><br/>
                 <figure class="image-box"><img id="image-scchlogo" src="/{{ site.data.assets.image-scchlogo }}" /></figure>
+                <br/><br/><br/></a>
+            </div>
+            <div class="col-lg-3 col-md-12 text-center topic-box">
+                <a target="_blank" href="{{ site.data.i18n.t.links.swph[page.lang] }}"><br/>
+                <figure class="image-box"><img id="image-swphlogo" src="/{{ site.data.assets.image-swphlogo }}" /></figure>
                 <br/><br/><br/></a>
             </div>
         </div>

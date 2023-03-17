@@ -39,6 +39,20 @@ t:
       en: "Contact"
       de: "Kontakt"
 
+  links:
+    swph:
+      en: "https://www.softwarepark-hagenberg.com/en/"
+      de: "https://www.softwarepark-hagenberg.com/"
+    scch:
+      en: "https://www.scch.at/"
+      de: "https://www.scch.at/"
+    fhooe:
+      en: "https://www.fh-ooe.at/en/"
+      de: "https://www.fh-ooe.at/"
+    risc:
+      en: "https://www.risc-software.at/en/"
+      de: "https://www.risc-software.at/"
+
   pages:
     imprint:
       en: "Imprint"
