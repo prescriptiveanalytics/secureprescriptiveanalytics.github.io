@@ -74,7 +74,7 @@
     bottom: 0;
     width: 100%;
     height: 30%;  
-    z-index: 9999;
+    // z-index: 9999;
 
     display: table-cell;
     vertical-align: middle;
@@ -91,10 +91,11 @@
     color: $brand-secondary;
 
     position: absolute;
-    // top: 50%; left: 50%;
-    // transform: translate(-50%,-50%);    
-    top: 50%; left: 25%;
-    transform: translate(-17.5%,-50%);
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);    
+    width: 75%;
+    // top: 50%; left: 25%;
+    // transform: translate(-17.5%,-50%);
 }
 
 .funding-banner figure {    
@@ -108,9 +109,21 @@
     font-family: $sans-serif-font-stack; 
 }
 
-@media(min-width:768px) {
+@media(min-width:736px) {
+    .funding-banner {
+        height: 20%;
+    }
+}
+
+@media(min-width:1080px) {
     .funding-banner {
         height: 10%;
+    }
+}
+
+@media(min-width:1950px) {
+    .funding-banner-inner {
+        width: 50%;
     }
 }
 
