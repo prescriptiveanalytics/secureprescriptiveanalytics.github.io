@@ -20,7 +20,7 @@ Vorgestellt wurden innovative Forschungsprojekte der [RISC Software GmbH][RISC]{
 
 Besonders bemerkenswert war der tiefgreifende Einblick in die Synergien zwischen verschiedenen Rollen, wie beispielsweise Domänen-Expert*innen, Management und Data Science. Durch Diskussionen wurde deutlich, wie effektive Zusammenarbeit den Weg für innovatives Denken und effiziente Lösungen in der Industrie ebnen kann.
 
-![Teil der Abteilung "Digitale Produkt Linie" der PALFINGER AG mit dem Taem der RISC Software GmbH](/blog/resources/2023-06-20-prescriptive-analytics-bei-palfinger/additional_photos.jpg)
+![Teil der Abteilung "Digitale Produkt Linie" der PALFINGER AG mit dem Team der RISC Software GmbH](/blog/resources/2023-06-20-prescriptive-analytics-bei-palfinger/additional_photos.jpg)
 ![Ferngesteuerter PALFINGER AG Kran im Einsatz](/blog/resources/2023-06-20-prescriptive-analytics-bei-palfinger/2023-06-20-banner.jpg)
 <center>Copyright PALFINGER AG</center>
 
