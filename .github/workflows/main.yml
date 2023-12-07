@@ -28,6 +28,8 @@ jobs:
           
       - name: commit changes
         run: |
+          git config user.email "flo.bachinger@gmail.com"
+          git config user.name "Florian Bachinger"
           git commit -am "remove workflow, rename cname"
           git reset --hard HEAD~1
           
