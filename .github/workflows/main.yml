@@ -1,0 +1,35 @@
+name: 'Mirror Repository'
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  mirror:
+    name: 'Mirror Repository'
+    runs-on: ubuntu-latest
+    
+    env:
+        private_key_pair_secureprescriptiveanalytics: ${{ secrets.private_key_pair_secureprescriptiveanalytics }}
+        
+    # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: "kubernetes/terraform"
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Mirroring Repository
+        uses: pixta-dev/repository-mirroring-action@v1.1.1
+        with:
+          target_repo_url:
+            git@github.com:prescriptiveanalytics/secureprescriptiveanalytics.github.io.git
+          ssh_private_key:                              # <-- use 'secrets' to pass credential information.
+            ${{ secrets.private_key_pair_secureprescriptiveanalytics }}   
