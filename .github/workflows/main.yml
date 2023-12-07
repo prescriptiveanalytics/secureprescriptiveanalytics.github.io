@@ -15,12 +15,6 @@ jobs:
     
     env:
         private_key_pair_secureprescriptiveanalytics: ${{ secrets.private_key_pair_secureprescriptiveanalytics }}
-        
-    # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
-    defaults:
-      run:
-        shell: bash
-        working-directory: "kubernetes/terraform"
 
     steps:
       - uses: actions/checkout@v3
