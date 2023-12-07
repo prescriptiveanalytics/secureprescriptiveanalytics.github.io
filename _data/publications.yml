@@ -37,3 +37,20 @@
     publisher: IEEE Access, 10, 88738-88749
     abstract:
     link: https://ieeexplore.ieee.org/abstract/document/9864153
+    
+    
+  - id: zenisek2023
+    year: 202
+    title: A messaging library for distributed modeling
+    authors: Zenisek, J., Bachinger, F., Falkner, D., Pitzer, E., Wagner, S., Lopez, A. & Affenzeller, M.
+    publisher: Elsevier, Procedia computer science
+    link: /
+    
+    
+   - id: bachinger2023
+    year: 2023
+    title: A messaging library for distributed modeling
+    authors: Bachinger, F., Zenisek, J. & Affenzeller, M.
+    publisher: Elsevier, Procedia computer science
+    link: /
+    
