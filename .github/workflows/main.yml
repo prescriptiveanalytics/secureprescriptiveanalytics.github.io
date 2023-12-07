@@ -31,7 +31,6 @@ jobs:
           git config user.email "flo.bachinger@gmail.com"
           git config user.name "Florian Bachinger"
           git commit -am "remove workflow, rename cname"
-          git reset --hard HEAD~1
           
       - name: Mirroring Repository
         uses: pixta-dev/repository-mirroring-action@v1.1.1
