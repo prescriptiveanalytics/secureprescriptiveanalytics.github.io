@@ -40,3 +40,8 @@ jobs:
             git@github.com:prescriptiveanalytics/secureprescriptiveanalytics.github.io.git
           ssh_private_key:                              # <-- use 'secrets' to pass credential information.
             ${{ secrets.private_key_pair_secureprescriptiveanalytics }}   
+     
+      - name: reset local changes
+        run: |
+          git reset --hard HEAD~1
+          
