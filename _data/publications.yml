@@ -1,10 +1,32 @@
-  # - id: affenzeller2023prescriptive
-  #   year: 2023
-  #   title: "Prescriptive Analytics: When Data- and Simulation-based Models Interact in a Cooperative Way"
-  #   authors: Affenzeller, M., Boegl, M., Fischer, L., Sbieczky, F., Yang, K. & Zenisek, J.
-  #   publisher: In proceedings of the 24th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing (to be published)
-  #   abstract: Business analytics is an extensive use of data acquired from diverse sources, statistical and quantitative analysis, explainable and predictive models, and fact-based management to make better strategic decisions for different stakeholders. To be able to model complex systems holistically in such a way that they can be fed into an efficient simulation-based optimization in the sense of prescriptive analytics, approaches and solutions that go beyond state-of-the-art are required. This paper introduces the basic technologies used in prescriptive analytics and proposes secure prescriptive analytics (SPA) that is based on component-based hierarchical modeling and dynamic optimization. Each element under the SPA framework is defined and illustrated by an example of production plan optimization.
-  #   link: /  
+  - id: bachinger2023automated
+    year: 2023
+    title: Automated Machine Learning for Industrial Applications – Challenges and Opportunities
+    authors: Bachinger, F., Zenisek, J. & Affenzeller, M.
+    publisher: Elsevier, Procedia computer science
+    link: /
+  
+  - id: zenisek2023amessaging
+    year: 2023
+    title: A messaging library for distributed modeling
+    authors: Zenisek, J., Bachinger, F., Falkner, D., Pitzer, E., Wagner, S., Lopez, A. & Affenzeller, M.
+    publisher: Elsevier, Procedia computer science
+    link: /
+  
+  - id: zenisek2023adomain
+    year: 2023
+    title: A domain specific language for distributed modeling
+    authors: Zenisek, J., Bachinger, F., Pitzer, E., Wagner, S., Falkner, D., Lopez, A. & Affenzeller, M.
+    publisher: Proceedings of the 35th European Modeling and Simulation Symposium, 2023, Greece, Athens
+    abstract: "As the digital transformation of industry continues, more and more data is being collected to gain insights into and further improve existing processes, known as prescriptive analytics. Among the enabling technologies for prescriptive analytics is simulation-based optimization. To accelerate the execution of simulations, the approach can be coupled with machine learning methods to create so-called surrogate models. However, this can lead to a loss of modeling accuracy if processes can only be inadequately mapped to such models. In this work, we present a new domain specific language, to model complex systems as a directed graph of smaller, communicating system components. With this language, surrogates may be developed more flexible, i.e. only for those parts, where it is meaningful. Further on, the execution of modeled components can be distributed to gain speedup. We provide an overview of the created language syntax, development process and support. We also show the applicability of the language in a case study: in terms of parsing speed, the language performs at the same level as comparable markup languages, while it outperforms them in terms of brevity, showing that it is more expressive. Finally, we outline additional features and the future application context of the language."
+    link: /
+  
+  - id: affenzeller2023prescriptive
+    year: 2023
+    title: "Prescriptive Analytics: When Data- and Simulation-based Models Interact in a Cooperative Way"
+    authors: Affenzeller, M., Boegl, M., Fischer, L., Sobieczky, F., Yang, K. & Zenisek, J.
+    publisher: In proceedings of the 24th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing
+    abstract: Business analytics is an extensive use of data acquired from diverse sources, statistical and quantitative analysis, explainable and predictive models, and fact-based management to make better strategic decisions for different stakeholders. To be able to model complex systems holistically in such a way that they can be fed into an efficient simulation-based optimization in the sense of prescriptive analytics, approaches and solutions that go beyond state-of-the-art are required. This paper introduces the basic technologies used in prescriptive analytics and proposes secure prescriptive analytics (SPA) that is based on component-based hierarchical modeling and dynamic optimization. Each element under the SPA framework is defined and illustrated by an example of production plan optimization.
+    link: /  
 
   - id: zenisek2023shapley
     year: 2023
@@ -13,7 +35,7 @@
     publisher: Computer Aided Systems Theory - EUROCAST 2022 18th International Conference, Las Palmas de Gran Canaria, Spain, February 20-25, 2022, Revised Selected Papers
     abstract: The current development of today's production industry towards seamless sensor-based monitoring is paving the way for concepts such as Predictive Maintenance. By this means, the condition of plants and products in future production lines will be continuously analyzed with the objective to predict any kind of breakdown and trigger preventing actions proactively. Such ambitious predictions are commonly performed with support of machine learning algorithms. In this work, we utilize these algorithms to model complex systems, such as production plants, by focussing on their variable interactions. The core of this contribution is a sliding window based algorithm, designed to detect changes of the identified interactions, which might indicate beginning malfunctions in the context of a monitored production plant. Besides a detailed description of the algorithm, we present results from experiments with a synthetic dynamical system, simulating stable and drifting system behavior.
     link: https://link.springer.com/chapter/10.1007/978-3-031-25312-6_15
-
+  
   - id: knospe2022atabu
     year: 2022
     title: A Tabu Search Approach to the Shot-Term Operational Planning of Power Systems
@@ -37,20 +59,4 @@
     publisher: IEEE Access, 10, 88738-88749
     abstract:
     link: https://ieeexplore.ieee.org/abstract/document/9864153
-    
-    
-  - id: zenisek2023
-    year: 202
-    title: A messaging library for distributed modeling
-    authors: Zenisek, J., Bachinger, F., Falkner, D., Pitzer, E., Wagner, S., Lopez, A. & Affenzeller, M.
-    publisher: Elsevier, Procedia computer science
-    link: /
-    
-    
-  - id: bachinger2023
-    year: 2023
-    title: Automated Machine Learning for Industrial Applications – Challenges and Opportunities
-    authors: Bachinger, F., Zenisek, J. & Affenzeller, M.
-    publisher: Elsevier, Procedia computer science
-    link: /
     
