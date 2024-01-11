@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: de
-title: "Dynamische Surrogatmodellierung"
+title: "Dynamische Online-Surrogatmodellierung"
 description: Prototypische Implementierung zur datenstrombasierten Surrogatemodellierung
 keywords: Surrogate Modeling, Konzept
 date: 2024-01-10 11:56 +0200
