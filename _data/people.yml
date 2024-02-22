@@ -101,6 +101,18 @@ groups:
         mail:  dominik.falkner@risc-software.at
         photo: dfalkner.jpg
 
+      - nick: akinast
+        firstname: Alexander
+        lastname: Kinast
+        prefix: Dr.
+        postfix: MSc
+        function:
+          en: Research Associate
+          de: Wissenschaftlicher Mitarbeiter
+        phone: 
+        mail:  alexander.kinast@risc-software.at
+        photo: akinast.jpg
+
   - name: Software Competence Center Hagenberg GmbH
     address: Softwarepark 32a
     members:
