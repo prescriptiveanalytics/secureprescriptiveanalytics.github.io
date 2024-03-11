@@ -8,7 +8,7 @@ date: 2023-11-26 15:00 +0200
 categories:
   - "News"
 author: fbachinger
-image: /blog/resources/2023-11-26-automatedModeling/automatedPipelines.png
+image: /blog/resources/2023-11-26-automatedModeling/automatedPipelines.PNG
 ---
 
 MLOps, das sind die besten Praktiken und Werkzeuge, um das Ende-zu-Ende Maschinenlernen zu erleichtern.
@@ -26,4 +26,4 @@ Die Nutzung von ML-Algorithmen und Methoden, die das Wissen von Fachexperten int
 
 <br/>
 
-![AutomatedModeling](/blog/resources/2023-11-26-automatedModeling/automatedPipelines.png)
+![AutomatedModeling](/blog/resources/2023-11-26-automatedModeling/automatedPipelines.PNG)
