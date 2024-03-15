@@ -16,15 +16,15 @@ Stefanie Kritzinger-Griebler und Dominik Falkner von RISC Software haben im Somm
 <!--more-->
 Bei dem Vortrag von Stefanie Kritzinger-Griebler, Manuel Schlenkrich und Dominik Falkner an der WU Wien, der ein Publikum von etwa 25 Teilnehmern, bestehend aus PhD-Studenten, Post-Docs und Professoren, anzog, standen mehrere Ansätze im Mittelpunkt. Zum einen präsentierte Dominik eine Möglichkeit um mithilfe von Prescriptive Analytics Bestellvorschläge für den Handel zu generieren. Dies Methode verlässt sich im Kern auf Modelle die mithilfe von maschinellem Lernen trainiert wurden. Manuel stellte Ein Tabu-Search-Algorithmus für reale Produktionsplanungsprobleme vor.
 
-<br \>
+<br/>
 
 ![Innen Räumlichkeiten der WU](/blog/resources/2024-03-15-wu/spaceship.jpg)
 
-<br \>
+<br/>
 
-![Speakers and Coordinators](/blog/resources/2024-03-15-wu/thumbnail.jpg)
+![Diskussion](/blog/resources/2024-03-15-wu/discussion.jpg)
 
-<br \>
+<br/>
 
 ![Speakers and Coordinators](/blog/resources/2024-03-15-wu/thumbnail.png)
 
