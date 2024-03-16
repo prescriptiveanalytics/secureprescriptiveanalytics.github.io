@@ -14,8 +14,7 @@ image: /blog/resources/2024-03-15-wu/thumbnail.png
 Stefanie Kritzinger-Griebler und Dominik Falkner von RISC Software haben im Sommersemester 2024 einen Vortrag im Rahmen der [WU Speaker Series][speaker] an der WU Wien gehalten. Dabei präsentierten sie Lösungen im Bereich Lieferkettenmanagement mit Methoden von Prescriptive Analytics.
 
 <!--more-->
-Bei dem Vortrag von Stefanie Kritzinger-Griebler, Manuel Schlenkrich und Dominik Falkner an der WU Wien, der ein Publikum von etwa 25 Teilnehmern, bestehend aus PhD-Studenten, Post-Docs und Professoren, anzog, standen mehrere Ansätze im Mittelpunkt. Zum einen präsentierte Dominik eine Möglichkeit um mithilfe von Prescriptive Analytics Bestellvorschläge für den Handel zu generieren. Dies Methode verlässt sich im Kern auf Modelle die mithilfe von maschinellem Lernen trainiert wurden. Manuel stellte Ein Tabu-Search-Algorithmus für reale Produktionsplanungsprobleme vor.
-
+Bei dem Vortrag von Stefanie Kritzinger-Griebler, Manuel Schlenkrich und Dominik Falkner an der WU Wien, der ein Publikum von etwa 25 Teilnehmern, bestehend aus PhD-Studenten, Post-Docs und Professoren, anzog, standen mehrere Ansätze im Mittelpunkt. Zum einen präsentierte Dominik eine Möglichkeit um mithilfe von Prescriptive Analytics Bestellvorschläge für den Handel zu generieren. Die Methode verlässt sich im Kern auf Modelle, die mithilfe von maschinellem Lernen trainiert wurden. Manuel stellte einen Tabu-Suche Algorithmus für reale Produktionsplanungsprobleme vor.
 <br/>
 
 ![Innen Räumlichkeiten der WU](/blog/resources/2024-03-15-wu/spaceship.jpg)
