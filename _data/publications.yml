@@ -1,6 +1,78 @@
+  - id: lopez2024physical
+    year: 2024
+    title: Physical explanations of AI-time series forecasting using BAPC
+    authors: Sobieczky, F. & Lopez, A.
+    publisher: European Network of Business and Industrial Statistics
+    abstract: 
+    link: /
+  
+  - id: kinast2024towards
+    year: 2024
+    title: Towards Benchmarking of Collaborative Robots in Production
+    authors: Kinast, A., Braune, R.
+    publisher: Elsevier, Procedia computer science
+    abstract: 
+    link: /
+
+  - id: sobieczky2024apredictive
+    year: 2024
+    title: A Predictive Maintenance Strategy Cost-Model
+    authors: Sobieczky, F., Bukovsky, I. & Khan, M.
+    publisher: QREI International
+    abstract: 
+    link: /
+
+  - id: falkner2024surrogates
+    year: 2024
+    title: Surrogates for Fair-Weather Photovoltaic Module Output
+    authors: Falkner, D., Boegl, M., Langthaller, I. & Affenzeller, M.
+    publisher: Computer Aided Systems Theory, Springer, Cham.
+    abstract: 
+    link: /
+
+  - id: haider2024comparing
+    year: 2024
+    title:  Comparing Constraint Evaluation Methods for Shape-constrained Regression
+    authors: Haider, C., Bachinger, F., de Franca, FO
+    publisher: Computer Aided Systems Theory, Springer, Cham.
+    abstract: 
+    link: /
+
+
+  - id: bachinger2024automated
+    year: 2024
+    title:  Automated Inference of Domain Knowledge in Scientific Machine Learning
+    authors: Bachinger, F., Haider, C., Zenisek, J., de Franca, FO & Affenzeller, M.
+    publisher: Computer Aided Systems Theory, Springer, Cham.
+    abstract: 
+    link: /
+
+  - id: zenisek2024composable
+    year: 2024
+    title: Composable Evolutionary Computation
+    authors: Zenisek, J., Bachinger, F., Pitzer, E., Wagner, S. & Affenzeller, M.
+    publisher: Computer Aided Systems Theory, Springer, Cham.
+    abstract: 
+    link: /
+
+  - id: sobieczky2024learning
+    year: 2024
+    title: Learning the inhomogeneous term of a linear ODE
+    authors: Sobieczky, F., Dudkin, E. & Zenisek, J.
+    publisher: Elsevier, Procedia computer science
+    abstract: 
+    link: /
+
+  - id: falkner2024integrating
+    year: 2024
+    title: "Integrating Machine Learning into Supply Chain Management: Challenges and Opportunities"
+    authors: Falkner, D., Boegl, M., Gattinger, A., Stainko, R., Zenisek, J. & Affenzeller, M.
+    publisher: Elsevier, Procedia computer science
+    link: /
+  
   - id: bachinger2023automated
     year: 2023
-    title: Automated Machine Learning for Industrial Applications – Challenges and Opportunities
+    title: "Automated Machine Learning for Industrial Applications – Challenges and Opportunities"
     authors: Bachinger, F., Zenisek, J. & Affenzeller, M.
     publisher: Elsevier, Procedia computer science
     link: /
